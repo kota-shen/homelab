@@ -36,7 +36,7 @@ L'infrastructure repose sur un hyperviseur **Proxmox VE** installé sur une mach
     
 - [x] Déploiement et configuration de `dnsmasq` sur l'hôte Proxmox.
 
-![Schéma infrastructure](../_assets/schemas/horizon-phase0.png)
+![Schéma infrastructure](../../_assets/schemas/horizon-phase0.png)
 
 
 ### 🟡 Phase 1 — Workloads, Poste Client & Lab CCNA (En cours)
