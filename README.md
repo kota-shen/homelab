@@ -36,7 +36,7 @@ L'infrastructure repose sur un hyperviseur **Proxmox VE** installé sur une mach
     
 - [x] Déploiement et configuration de `dnsmasq` sur l'hôte Proxmox.
 
-![Schéma infrastructure](../assets/schemas/horizon-phase0.png)
+![Schéma infrastructure](../../assets/schemas/horizon-phase0.png)
 
 
 ### 🟡 Phase 1 — Workloads, Poste Client & Lab CCNA (En cours)
@@ -54,7 +54,7 @@ L'infrastructure repose sur un hyperviseur **Proxmox VE** installé sur une mach
 | **Service / VM**   | **Type**    | **Réseau**     | **Rôle / Description**               | **Statut**  |
 | ------------------ | ----------- | -------------- | ------------------------------------ | ----------- |
 | **Proxmox Host**   | Hyperviseur | Physique / NAT | Hôte principal + DNSmasq / NAT       | 🟡 En cours |
-| **Win10-Template** | Template VM | `vmbr1` (NAT)  | Image master Windows 10 (VirtIO)     | ⚪ Planifié  |
-| **Ubuntu-Desktop** | VM Client   | `vmbr1` (NAT)  | Station de travail Linux utilisateur | ⚪ Planifié  |
-| **EVE-NG Server**  | VM Nested   | `vmbr1` (NAT)  | Plateforme d'émulation réseau (CCNA) | ⚪ Planifié  |
+| **Win10-Template** | Template VM | `vmbr0` (NAT)  | Image master Windows 10 (VirtIO)     | ⚪ Planifié  |
+| **Ubuntu-Desktop** | VM Client   | `vmbr0` (NAT)  | Station de travail Linux utilisateur | ⚪ Planifié  |
+| **EVE-NG Server**  | VM Nested   | `vmbr0` (NAT)  | Plateforme d'émulation réseau (CCNA) | ⚪ Planifié  |
 | **pfSense**        | Router / FW | Multi-Bridges  | Routage central et filtrage          | ⚪ Planifié  |
