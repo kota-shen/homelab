@@ -32,10 +32,12 @@ L'infrastructure repose sur un hyperviseur **Proxmox VE** installé sur une mach
     
 - [x] Suppression des dépôts Enterprise et passage au canal _No-Subscription_.
     
-- [ ] Configuration du bridge virtuel NAT et du forwarding IP sur l'interface Wi-Fi hôte.
+- [x] Configuration du bridge virtuel NAT et du forwarding IP sur l'interface Wi-Fi hôte.
     
-- [ ] Déploiement et configuration de `dnsmasq` sur l'hôte Proxmox.
-    
+- [x] Déploiement et configuration de `dnsmasq` sur l'hôte Proxmox.
+
+![Schéma infrastructure](../assets/schemas/horizon-phase0.png)
+
 
 ### 🟡 Phase 1 — Workloads, Poste Client & Lab CCNA (En cours)
 

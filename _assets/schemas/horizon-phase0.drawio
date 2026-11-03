@@ -1,0 +1,25 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="avFc_t74qtL8mAS-Ujpq">
+    <mxGraphModel dx="1364" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y0HvmoXfCvwcxaOWgg45-1" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.internet;network2IconXOffset=0.0012;network2IconYOffset=0.0035;network2IconW=0.9677;network2IconH=0.7722;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="38.61" width="48.385" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0HvmoXfCvwcxaOWgg45-2" parent="1" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.server;network2IconW=1.0001;network2IconH=0.5812;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="29.060000000000002" width="50.005" x="360" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="y0HvmoXfCvwcxaOWgg45-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="horizon.homelab&lt;div&gt;Serveur proxmox&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="422" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="y0HvmoXfCvwcxaOWgg45-4" edge="1" parent="1" source="y0HvmoXfCvwcxaOWgg45-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.501;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="y0HvmoXfCvwcxaOWgg45-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0HvmoXfCvwcxaOWgg45-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Internet" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
